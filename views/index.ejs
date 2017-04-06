@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<form action="/results" method="POST">
+    <label for="name">Enter Name</label>
+    <input type="text" name="name" placeholder="Name"><br>
+    <label for="location">Enter Location</label>
+    <select name="location">
+        <option value="Seattle">Seattle</option>
+        <option value="San Jose">San Jose</option>
+        <option value="New York">New York</option>
+        <option value="Tokyo">Tokyo</option>
+    </select><br>
+    <label for="language">Enter Language</label>
+    <select name="language">
+        <option value="JavaScript">JavaScript</option>
+        <option value="C#">C#</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+    </select><br>
+    <label for="comment">Comments:</label><br>
+    <textarea rows="5" cols="60" name="comment"></textarea>
+    <button type="submit">Send Data</button>
+</form>

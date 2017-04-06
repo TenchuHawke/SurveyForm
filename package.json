@@ -1,25 +1,17 @@
 {
-  "name": "surveyform",
-  "version": "0.0.1",
-  "description": "A survey form ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TenchuHawke/SurveyForm.git"
-  },
-  "author": "Jeff \"Hawke\" Ravatt",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TenchuHawke/SurveyForm/issues"
-  },
-  "homepage": "https://github.com/TenchuHawke/SurveyForm#readme",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "ejs": "^2.5.6",
-    "express": "^4.15.2",
-    "socket.io": "^1.7.3"
-  }
+    "name": "TestProject",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "ejs": "^2.4.1",
+        "express": "^4.13.4"
+    }
 }
